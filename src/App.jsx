@@ -3,6 +3,7 @@ import {AiFillLinkedin} from 'react-icons/ai'
 import { FaGithub, FaTelegram, FaWalking } from 'react-icons/fa';
 import { FaUser, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
+import resume from "../public/Yohana_Resume.pdf"
 import me from '../public/Me.png'
 import design from '../public/design.png'
 import code from '../public/code.png'
@@ -29,7 +30,7 @@ function App() {
               <h1 className='text-3xl font-burtons'>Portfolio</h1>
               <ul className='flex items-center'>
                 <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/></li>
-                <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:bg-cyan-300' href="https://www.linkedin.com/in/yohana-mekuria-90607a2ab/">Resume</a></li>
+                <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:bg-cyan-300' href={resume} download="Yohana_Resume.pdf">Download Resume</a></li>
               </ul>
             </nav>
             <div className='text-center p-10 py-10'>
