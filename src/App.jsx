@@ -17,7 +17,7 @@ import landpage from '../public/landing1.png'
 
 
 function App() {
-  const [darkMode, setDarkMode] = useState(flase);
+  const [darkMode, setDarkMode] = useState(false);
   const refreshPage =()=> {
     location.reload();
   }
