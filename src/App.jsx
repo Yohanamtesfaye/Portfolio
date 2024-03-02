@@ -2,6 +2,8 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillLinkedin} from 'react-icons/ai'
 import { FaGithub, FaTelegram, FaWalking } from 'react-icons/fa';
 import { FaUser, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaRegCopyright } from 'react-icons/fa';
+
 
 import resume from "../public/Yohana_Resume.pdf"
 import me from '../public/Me.png'
@@ -213,9 +215,20 @@ function App() {
                   </form>
               </div>
             </div>
-            
           </section>
         </main>
+                <section>
+              <div className='flex justify-center bg-teal-500 py-5 font-bold text-white'>
+               <div>
+               <p>Created by <a className='text-gray-700'href="https://www.linkedin.com/in/yohana-mekuria-90607a2ab/">Yohana</a> |</p>
+                </div>  
+                <div className='ml-2 mr-2 mt-1'>
+                  <FaRegCopyright/>
+                </div>
+
+                <p> 2024 All right reserved</p>
+              </div>
+          </section>
       </div>
   
     </>
