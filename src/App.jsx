@@ -1,6 +1,6 @@
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillLinkedin} from 'react-icons/ai'
-import { FaGithub, FaTelegram, FaWalking } from 'react-icons/fa';
+import { FaGithub, FaTelegram } from 'react-icons/fa';
 import { FaUser, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 import { FaRegCopyright } from 'react-icons/fa';
 
@@ -12,10 +12,9 @@ import code from '../public/code.png'
 import voln from '../public/Voulenteer.png'
 import tutor from '../public/tutor.png'
 import { useState } from 'react';
-import signup from '../public/signup.jpg'
-import signup3 from '../public/signup3.jpg'
-import signup2 from '../public/signup2.jpg'
-import landpage from '../public/landing1.png'
+import portfolio from '../public/portfolio.jpg'
+import federal from '../public/Federal.png'
+import ecommerce from '../public/E-commerce.png'
 
 
 function App() {
@@ -26,7 +25,7 @@ function App() {
   return (
     <>
       <div className={darkMode ? "dark" : ""}>
-        <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
+        <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>o
           <section className=" min-h-screen">
             <nav className='py-10 mb-12 flex justify-between dark:text-white'>
               <h1 className='text-3xl font-burtons'>Portfolio</h1>
@@ -60,10 +59,15 @@ function App() {
             <div>
               <h3 className='text-3xl py-1 dark:text-white mt-5 font-bold'>Experiences</h3>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
-                Currently interning as a <span className='text-teal-500'>Front-End Developer </span> with the <span className='text-teal-500'>Federal Prison  system</span>
+                Currently working as a <span className='text-teal-500'>Front-End Developer </span> with the <span className='text-teal-500'>Federal Prison  system</span>
                 ,where I am part of a team developing a registration system 
                 for an upcoming college program designed to educate incarcerated
                 individuals.
+              </p>
+              <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
+                Interning as a <span className='text-teal-500'> Web Developer </span> for <a href='https://www.codealpha.tech/' className='text-teal-500 underline'>Code Alpha </a>
+                and <a href='https://www.linkedin.com/company/interncareers/' className='text-teal-500 underline'>Intern Career</a>, immerse myself in the world of web development, 
+                eagerly absorbing knowledge and refining my skills.
               </p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
               I actively contributed my time and skills to 
@@ -81,7 +85,7 @@ function App() {
             </div>
             <h3 className='text-3xl py-1 dark:text-white mt-5 font-bold'>Services I Offer</h3>
             <div className='lg:flex gap-3'>
-              <div className=' text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
+              <div className=' text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white  hover:bg-gradient-to-r from-teal-300 to-teal-50'>
                 <img src={design} width={100} height={100} className='max-w-full max-h-full mx-auto' />
                 <h3 className='text-lg font-medium pt-8 pb-2'>Front-End Developmnet</h3>
                 <p className='py-2'> crafting visually stunning digital experiences. Specializing in creating beautiful interfaces that captivate and engage users.</p>
@@ -90,7 +94,7 @@ function App() {
                 <p className='text-gray-800 py-1'>Tailwind, Bootstrap</p>
                 <p className='text-gray-800 py-1'>HTML, CSS, JavaScript, TypeScript</p>
               </div>
-              <div className=' text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
+              <div className=' text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white hover:bg-gradient-to-r from-teal-50 to-teal-300'>
                 <img src={code} width={100} height={100} className='max-w-full max-h-full mx-auto' />
                 <h3 className='text-lg font-medium pt-8 pb-2'>Web Devlopment</h3>
                 <p className='py-2'>Full-Stack Developer proficient in developing cutting-edge solutions. Skilled in front-end and back-end development.</p>
@@ -100,7 +104,7 @@ function App() {
                 <p className='text-gray-800 py-1'>Express.js</p>
                 <p className='text-gray-800 py-1'>Mongo DB, MySql</p>
               </div>
-              <div className=' text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
+              <div className=' text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white hover:bg-gradient-to-r from-teal-300 to-teal-50'>
                 <img src={voln} width={100} height={100} className='max-w-full max-h-full mx-auto' />
                 <h3 className='text-lg font-medium pt-8 pb-2'>Voulnteering</h3>
                 <p className='py-2'>
@@ -112,7 +116,7 @@ function App() {
                 <p className='text-gray-800 py-1'>AASTU Student Union Charity Club</p>
                 <p className='text-gray-800 py-1'>HighSchool Charity Club</p>
               </div>
-              <div className=' text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
+              <div className=' text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white hover:bg-gradient-to-r from-teal-50 to-teal-300'>
                 <img src={tutor} width={100} height={100} className='max-w-full max-h-full mx-auto' />
                 <h3 className='text-lg font-medium pt-8 pb-2'>Tutoring</h3>
                 <p className='py-2'>
@@ -126,31 +130,51 @@ function App() {
           {/* Portfolio Section */}
           <section id='Portofolio'>
             <div>
-            <h3 className='text-3xl py-1 mt-5 dark:text-gray-200 font-bold'>Portofolio</h3>
+            <h3 className='text-3xl py-1 mt-5 dark:text-gray-200 font-bold'>Projects</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
-              As a passionate <span className='text-teal-600'>Full-Stack Developer</span>  with a focus on 
-              front-end excellence, I've crafted captivating digital 
-              experiences by blending creativity with technical expertise.
-              Alongside my dedication to technology, I've <span className='text-teal-600'>volunteered</span> as 
-              a teacher, sharing knowledge at Askal Charity Association,
-              and <span className='text-teal-600'>tutored</span> students from grades 2 to 8, fostering academic
-              growth. With a commitment to innovation and community 
-              impact, I'm driven to push boundaries in both education
-              and technology.
+              In my portfolio on GitHub, I showcase a variety of projects, including an <span className='text-teal-600'> e-commerce website</span>  built from the ground up,
+              a <span className='text-teal-600 '>Federal Prison registration system </span> developed collaboratively with a team, and a <span className='text-teal-600'>personal portfolio website</span>  demonstrating my
+              skills and experiences.  Additionally, my GitHub repository houses various school and personal projects, reflecting my ongoing learning and growth in web development.
             </p>
             </div>
-            <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-              <div className=' basis-1/3 flex-1'>
-                <img src={signup} alt="" />
-              </div >
-              <div className=' basis-1/3 flex-1'>
-                <img src={signup2} className="rounded-lg object-cover" width={'100%'} heigh={'100%'}  />
+            <div className='flex flex-col py-10'>
+            <div className='lg:flex shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
+                <div className='max-w-full max-h-full mx-auto '>
+                   <img src={ecommerce}   />
+                </div>
+                <div className='ml-10 '>
+                  <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>E-Commerce Website</h3>
+                  <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
+                  My first interactive website was an e-commerce platform, where I delved into the core fundamentals of state management. Through this project, I gained invaluable insights into handling data and maintaining application state dynamically.
+                  </p>
+                  <a  className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50' href="https://github.com/Yohanamtesfaye/Gdsc-Ecommerce">View in Github</a>
+                </div>
               </div>
-              <div className=' basis-1/3 flex-1'>
-                <img src={signup3} className="rounded-lg object-cover" width={'100%'} heigh={'100%'}  />
+              <div className='lg:flex shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
+                <div className='mr-10 '>
+                  <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>Portoflio</h3>
+                  <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
+                  I've built my portfolio using React.js and Tailwind CSS, displaying my professional experiences, offered services, and ongoing projects.
+                  </p>
+                  <a  className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50' href="https://github.com/Yohanamtesfaye/Portfolio">View in Github</a>
+                </div>
+                <div className='max-w-full max-h-full mx-auto max-md:mt-10'>
+                   <img src={portfolio}   />
+                </div>
               </div>
-              <div className=' basis-1/3 flex-1'>
-                <img src={landpage} className="rounded-lg object-cover" width={'100%'} heigh={'100%'}  />
+              <div className='lg:flex shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
+                <div className='max-w-full max-h-full mx-auto '>
+                   <img src={federal}  width={'1700px'} />
+                </div>
+                <div className='ml-10 '>
+                  <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>Registration System</h3>
+                  <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
+                      I've been part of a dedicated team of six, as a Front-End Developer collaborating closely on a registration system for an upcoming college program,
+                      for the Federal Prsion Located in Kality,While I can't share the GitHub link as it's a private project, You can explore the evidence of my collaborative
+                       efforts on my GitHub account; feel free to check it out.
+                  </p>
+                  <a  className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 ' href="https://github.com/Yohanamtesfaye">View in Github</a>
+                </div>
               </div>
             </div>
             {/* contactMe */}
@@ -211,7 +235,7 @@ function App() {
                       <input type="email" placeholder='Email'className='border border-teal-600 md:w-96 h-10 px-3 py-6 rounded-lg mb-2'/> <br />
                       <input type="text" placeholder='Subject' className='border border-teal-600 md:w-96 h-10 px-3 py-6 rounded-lg mb-2'/>
                       <input type="text" placeholder='Message...' className='border border-teal-600 md:w-96 md:h-44 mb-2 px-3 py-6 rounded-lg ' /> <br />
-                      <button type='submit' className='border border-teal-600 bg-teal-600 px-3 py-3 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50' onClick={()=>{alert("Thank you For contacting us!")}}>send Message</button>
+                      <button type='submit' className='border border-teal-600 bg-teal-600 px-3 py-3 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50'>send Message</button>
                   </form>
               </div>
             </div>
