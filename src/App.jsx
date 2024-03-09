@@ -139,10 +139,10 @@ function App() {
             </div>
             <div className='flex flex-col py-10'>
             <div className='lg:flex shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-                <div className='max-w-full max-h-full mx-auto '>
+                <div className='max-w-full max-h-full mx-auto mr-10'>
                    <img src={ecommerce}   />
                 </div>
-                <div className='ml-10 '>
+                <div>
                   <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>E-Commerce Website</h3>
                   <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
                   My first interactive website was an e-commerce platform, where I delved into the core fundamentals of state management. Through this project, I gained invaluable insights into handling data and maintaining application state dynamically.
@@ -151,22 +151,22 @@ function App() {
                 </div>
               </div>
               <div className='lg:flex shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-                <div className='mr-10 '>
+                <div>
                   <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>Portoflio</h3>
                   <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
                   I've built my portfolio using React.js and Tailwind CSS, displaying my professional experiences, offered services, and ongoing projects.
                   </p>
                   <a  className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50' href="https://github.com/Yohanamtesfaye/Portfolio">View in Github</a>
                 </div>
-                <div className='max-w-full max-h-full mx-auto max-md:mt-10'>
+                <div className='max-w-full max-h-full mx-auto max-md:mt-10 ml-10'>
                    <img src={portfolio}   />
                 </div>
               </div>
               <div className='lg:flex shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-                <div className='max-w-full max-h-full mx-auto '>
+                <div className='max-w-full max-h-full mx-auto mr-10'>
                    <img src={federal}  width={'1700px'} />
                 </div>
-                <div className='ml-10 '>
+                <div >
                   <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>Registration System</h3>
                   <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
                       I've been part of a dedicated team of six, as a Front-End Developer collaborating closely on a registration system for an upcoming college program,
