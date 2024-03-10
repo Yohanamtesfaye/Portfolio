@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <div className={darkMode ? "dark" : ""}>
-        <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>o
+        <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
           <section className=" min-h-screen">
             <nav className='py-10 mb-12 flex justify-between dark:text-white'>
               <h1 className='text-3xl font-burtons'>Portfolio</h1>
