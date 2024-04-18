@@ -15,6 +15,7 @@ import { useState } from 'react';
 import portfolio from '../public/portfolio.jpg'
 import federal from '../public/Federal.png'
 import ecommerce from '../public/E-commerce.png'
+import logo from '../public/logo.jpg'
 
 
 function App() {
@@ -25,12 +26,12 @@ function App() {
   return (
     <>
       <div className={darkMode ? "dark" : ""}>
-        <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>o
+        <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
           <section className=" min-h-screen">
             <nav className='py-10 mb-12 flex justify-between dark:text-white'>
               <h1 className='text-3xl font-burtons'>Portfolio</h1>
               <ul className='flex items-center'>
-                <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/></li>
+                <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl '/></li>
                 <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:bg-cyan-300' href={resume} download="Yohana_Resume.pdf">Save Cv</a></li>
               </ul>
             </nav>
@@ -45,7 +46,7 @@ function App() {
                  </p>
             </div>
                 {/* buttons */}
-            <div className='text-5xl flex justify-center gap-16 text-gray-600 dark:text-gray-400'>
+            <div className='text-5xl flex justify-center gap-16 text-gray-600 dark:text-gray-400 '>
               <a href="https://www.linkedin.com/in/yohana-mekuria-90607a2ab/"><AiFillLinkedin/></a>
               <a href="https://github.com/Yohanamtesfaye"><FaGithub/></a> 
               <a href="https://t.me/YohanaETH"><FaTelegram/></a>  
@@ -58,21 +59,22 @@ function App() {
           <section id='service'>
             <div>
               <h3 className='text-3xl py-1 dark:text-white mt-5 font-bold'>Experiences</h3>
+             
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
                 Currently working as a <span className='text-teal-500'>Front-End Developer </span> with the <span className='text-teal-500'>Federal Prison  system</span>
                 ,where I am part of a team developing a registration system 
                 for an upcoming college program designed to educate incarcerated
                 individuals.
               </p>
-              <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
-                Interning as a <span className='text-teal-500'> Web Developer </span> for <a href='https://www.codealpha.tech/' className='text-teal-500 underline'>Code Alpha </a>
-                and <a href='https://www.linkedin.com/company/interncareers/' className='text-teal-500 underline'>Intern Career</a>, immerse myself in the world of web development, 
-                eagerly absorbing knowledge and refining my skills.
-              </p>
+                
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
               I actively contributed my time and skills to 
               <a className='text-teal-500 underline' href="https://askalcharityassociation.org/"> Askal Charity Association</a> every Saturday <span className='text-teal-500'>Voulenteering </span>
                 as a teacher for kids of age 10 and under since The beginning of this academic year  .
+              </p>
+              <p>
+              I have completed an intensive six-month study program at <a className='text-teal-500 underline' href="https://www.linkedin.com/company/gdsc-aastu/">GDSC AASTU</a>, where I dedicated myself to mastering React.js for front-end development.
+               The experience has been invaluable, providing me with the expertise and confidence needed to tackle complex projects. 
               </p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
                 <span className='text-teal-500'>Tutoring</span>  students in grades 7 and 8 through <a className='text-teal-500 underline' href="https://haletatutors.com/">Haleta Tutoring Company</a>, 
@@ -80,7 +82,7 @@ function App() {
                 2 and 3 through personal connections, has allowed me to play a 
                 significant role in their educational development.
               </p>
-              
+             
                 {/* services */}
             </div>
             <h3 className='text-3xl py-1 dark:text-white mt-5 font-bold'>Services I Offer</h3>
@@ -177,6 +179,18 @@ function App() {
                 </div>
               </div>
             </div>
+            <div className='lg:flex shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
+                <div>
+                  <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>Abugida Tutor</h3>
+                  <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
+                   At the GDSC AASTU hackathon, our project "Abugida Tutors" secured third place. I led the front-end team and collaborated with the backend team. Our project connects university students who want seeking financial independence through teaching with parents looking to educate their kids. 
+                  </p>
+                  <a  className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50' href="https://github.com/Yohanamtesfaye/Abogida-Tutors">View in Github</a>
+                </div>
+                <div className='max-w-full max-h-full mx-auto max-md:mt-10 ml-10'>
+                   <img src={logo}   />
+                </div>
+              </div>
             {/* contactMe */}
           </section>
           <section id='contactMe'>
