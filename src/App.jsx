@@ -72,7 +72,7 @@ function App() {
               <a className='text-teal-500 underline' href="https://askalcharityassociation.org/"> Askal Charity Association</a> every Saturday <span className='text-teal-500'>Voulenteering </span>
                 as a teacher for kids of age 10 and under since The beginning of this academic year  .
               </p>
-              <p>
+              <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
               I have completed an intensive six-month study program at <a className='text-teal-500 underline' href="https://www.linkedin.com/company/gdsc-aastu/">GDSC AASTU</a>, where I dedicated myself to mastering React.js for front-end development.
                The experience has been invaluable, providing me with the expertise and confidence needed to tackle complex projects. 
               </p>
