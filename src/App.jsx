@@ -16,6 +16,7 @@ import portfolio from '../public/portfolio.jpg'
 import federal from '../public/Federal.png'
 import ecommerce from '../public/E-commerce.png'
 import logo from '../public/logo.jpg'
+import movie from '../public/movie.png'
 
 
 function App() {
@@ -40,7 +41,7 @@ function App() {
               <h3 className='text-2xl py-2 md:text-3x1 dark:text-white'>Full-stack Developer Specializing in Front-End Development.</h3>
               <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200 '>
               Committed freelancer adept at developing innovative solutions.
-              Specializing in full-stack development with a strong focus on 
+              Specializing in frontend development with a strong focus on 
               client satisfaction. Passionate about delivering quality. 
 
                  </p>
@@ -94,7 +95,7 @@ function App() {
                 <h4 className='py-4 text-teal-600'>Technologies I use</h4>
                 <p className='text-gray-800 py-1'>React.js</p>
                 <p className='text-gray-800 py-1'>Tailwind, Bootstrap</p>
-                <p className='text-gray-800 py-1'>HTML, CSS, JavaScript, TypeScript</p>
+                <p className='text-gray-800 py-1'>HTML, CSS, JavaScript</p>
               </div>
               <div className=' text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white hover:bg-gradient-to-r from-teal-50 to-teal-300'>
                 <img src={code} width={100} height={100} className='max-w-full max-h-full mx-auto' />
@@ -104,7 +105,7 @@ function App() {
                 <p className='text-gray-800 py-1'>PHP</p>
                 <p className='text-gray-800 py-1'>Node.js</p>
                 <p className='text-gray-800 py-1'>Express.js</p>
-                <p className='text-gray-800 py-1'>Mongo DB, MySql</p>
+                <p className='text-gray-800 py-1'>MySql</p>
               </div>
               <div className=' text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white hover:bg-gradient-to-r from-teal-300 to-teal-50'>
                 <img src={voln} width={100} height={100} className='max-w-full max-h-full mx-auto' />
@@ -181,16 +182,30 @@ function App() {
             </div>
             <div className='lg:flex shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
                 <div>
-                  <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>Abugida Tutor</h3>
+                  <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>CineSphere Movies</h3>
                   <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
-                   At the GDSC AASTU hackathon, our project "Abugida Tutors" secured third place. I led the front-end team and collaborated with the backend team. Our project connects university students who want seeking financial independence through teaching with parents looking to educate their kids. 
+                      As a team of three, we created a movie recommendation system as our capstone project for GDSC AASTU. This system suggests the latest popular movies and allows users to mark their favorites after logging in.
+                  </p>
+                  <a  className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50' href="https://github.com/FikruDemlew/GDSC-Team-4">View in Github</a>
+                </div>
+                <div className='max-w-full max-h-full mx-auto max-md:mt-10 ml-10'>
+                   <img src={movie}   />
+                </div>
+              </div>
+              
+              <div className='lg:flex shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
+                <div className='max-w-full max-h-full mx-auto mr-10'>
+                   <img src={logo}   />
+                </div>
+                <div>
+                  <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>E-Commerce Website</h3>
+                  <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
+                  At the GDSC AASTU hackathon, our project "Abugida Tutors" secured third place. I led the front-end team and collaborated with the backend team. Our project helps to connect university students who are seeking for financial independence through teaching with parents looking to educate their kids. 
                   </p>
                   <a  className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50' href="https://github.com/Yohanamtesfaye/Abogida-Tutors">View in Github</a>
                 </div>
-                <div className='max-w-full max-h-full mx-auto max-md:mt-10 ml-10'>
-                   <img src={logo}   />
-                </div>
               </div>
+              
             {/* contactMe */}
           </section>
           <section id='contactMe'>
