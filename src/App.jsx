@@ -146,7 +146,7 @@ function App() {
                    <img src={ecommerce}   />
                 </div>
                 <div>
-                  <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>E-Commerce Website</h3>
+                  <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>Abugida Tutors</h3>
                   <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
                   My first interactive website was an e-commerce platform, where I delved into the core fundamentals of state management. Through this project, I gained invaluable insights into handling data and maintaining application state dynamically.
                   </p>
