@@ -151,8 +151,13 @@ function App() {
                   <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
                   At the GDSC AASTU hackathon, our project "Abugida Tutors" secured third place. I led the front-end team and collaborated with the backend team. Our project helps to connect university students who are seeking for financial independence through teaching with parents looking to educate their kids. 
                   </p>
-                  <a  className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' href="https://github.com/Yohanamtesfaye/Abogida-Tutors">View in Github</a>
-                  <a  className='border hover:border-teal-600 hover:bg-teal-600 px-14 py-1 bg-teal-50 text-teal-600 rounded-lg font-bold hover:text-gray-50' href="https://abogida.vercel.app/">View Demo</a>
+                  <div>
+                    
+                  </div>
+                  <div className='lg:flex'>
+                    <div className='border border-teal-600 bg-teal-600 px-14 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' ><a  href="https://github.com/Yohanamtesfaye/Abogida-Tutors">View in Github</a></div>   
+                    <div className='border hover:border-teal-600 hover:bg-teal-600 px-14 max-md:mt-5 py-1 bg-teal-50 text-teal-600 rounded-lg font-bold hover:text-gray-50'><a href="https://abogida.vercel.app/">View Demo</a></div>
+                  </div>
                 </div>
               </div>   
             <div className='lg:flex shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
@@ -161,8 +166,10 @@ function App() {
                   <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
                   The Peoples' Friendship University of Russia, MEPHI, and AASTU organized a 24-hour hackathon supported by Rosatom. Our team developed a website with in 24 hours, which focused on promoting nuclear energy through digital tools on interactive platforms which secured us 2nd place.
                   </p>
-                  <a  className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' href="https://github.com/YegetaTaye/Atom-Squad-HackAtom">View in Github</a>
-                  <a  className='border hover:border-teal-600 hover:bg-teal-600 px-14 py-1 bg-teal-50 text-teal-600 rounded-lg font-bold hover:text-gray-50' href="https://stellar-starburst-21d4f3.netlify.app/">View Demo</a>
+                  <div className='lg:flex'>
+                    <div className='border border-teal-600 bg-teal-600 px-14 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' ><a  href="https://github.com/YegetaTaye/Atom-Squad-HackAtom">View in Github</a></div>   
+                    <div className='border hover:border-teal-600 hover:bg-teal-600 px-7 max-md:mt-5 py-1 bg-teal-50 text-teal-600 rounded-lg font-bold hover:text-gray-50'><a href="https://stellar-starburst-21d4f3.netlify.app/">View Demo</a></div>
+                  </div>
                 </div>
                 <div className='max-w-full max-h-full mx-auto max-md:mt-10 ml-10'>
                    <img src={AtomSquad}   />
@@ -189,8 +196,10 @@ function App() {
                   <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
                       As a team of three, we created a movie recommendation system as our capstone project for GDSC AASTU. This system suggests the latest popular movies and allows users to mark their favorites after logging in.
                   </p>
-                  <a  className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' href="https://github.com/FikruDemlew/GDSC-Team-4">View in Github</a>
-                  <a className='border hover:border-teal-600 hover:bg-teal-600 px-14 py-1 bg-teal-50 text-teal-600 rounded-lg font-bold hover:text-gray-50'href="https://cinesphere-one.vercel.app">View Demo</a>
+                  <div className='lg:flex'>
+                    <div className='border border-teal-600 bg-teal-600 px-14 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' ><a  href="https://github.com/FikruDemlew/GDSC-Team-4">View in Github</a></div>   
+                    <div className='border hover:border-teal-600 hover:bg-teal-600 px-7 max-md:mt-5 py-1 bg-teal-50 text-teal-600 rounded-lg font-bold hover:text-gray-50'><a href="https://cinesphere-one.vercel.app">View Demo</a></div>
+                  </div>
                 </div>
                 <div className='max-w-full max-h-full mx-auto max-md:mt-10 ml-10'>
                    <img src={movie}   />
@@ -201,12 +210,15 @@ function App() {
                    <img src={ecommerce}   />
                 </div>
                 <div>
-                  <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>Abugida Tutor</h3>
+                  <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>E-commerce Website</h3>
                   <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
                   My first interactive website was an e-commerce platform, where I delved into the core fundamentals of state management. Through this project, I gained invaluable insights into handling data and maintaining application state dynamically.
                   </p>
-                  <a  className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' href="https://github.com/Yohanamtesfaye/Gdsc-Ecommerce">View in Github</a>
-                  <a  className='border hover:border-teal-600 hover:bg-teal-600 px-14 py-1 bg-teal-50 text-teal-600 rounded-lg font-bold hover:text-gray-50'href="https://illustrious-mandazi-b269ce.netlify.app/">View Demo</a>
+                  <div className='lg:flex'>
+                    <div className='border border-teal-600 bg-teal-600 px-14 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' ><a  href="https://github.com/Yohanamtesfaye/Gdsc-Ecommerce">View in Github</a></div>   
+                    <div className='border hover:border-teal-600 hover:bg-teal-600 px-7 max-md:mt-5 py-1 bg-teal-50 text-teal-600 rounded-lg font-bold hover:text-gray-50'><a href="https://admirable-mermaid-56a9f2.netlify.app/">View Demo</a></div>
+                  </div>
+
                 </div>
               </div>
          
