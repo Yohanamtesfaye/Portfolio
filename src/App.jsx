@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <div className={darkMode ? "dark" : ""}>
-        <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
+        <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900 w-full'>
           <section className=" min-h-screen">
             <nav className='py-10 mb-12 flex justify-between dark:text-white'>
               <h1 className='text-3xl font-burtons'>Portfolio</h1>
@@ -286,7 +286,7 @@ function App() {
           </section>
         </main>
                 <section>
-              <div className='flex justify-center bg-teal-500 py-5 font-bold text-white'>
+              <div className='flex justify-center bg-teal-500 py-5 font-bold text-white w-full'>
                <div>
                <p>Created by <a className='text-gray-700'href="https://www.linkedin.com/in/yohana-mekuria-90607a2ab/">Yohana</a> |</p>
                 </div>  
