@@ -154,7 +154,7 @@ function App() {
                     
                   </div>
                   <div className='lg:flex'>
-                    <div className='border border-teal-600 bg-teal-600 px-14 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' ><a  href="https://github.com/Yohanamtesfaye/Abogida-Tutors">View in Github</a></div>   
+                    <div className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' ><a  href="https://github.com/Yohanamtesfaye/Abogida-Tutors">View in Github</a></div>   
                     <div className='border hover:border-teal-600 hover:bg-teal-600 px-14 max-md:mt-5 py-1 bg-teal-50 text-teal-600 rounded-lg font-bold hover:text-gray-50'><a href="https://abogida.vercel.app/">View Demo</a></div>
                   </div>
                 </div>
@@ -166,7 +166,7 @@ function App() {
                   The Peoples' Friendship University of Russia, MEPHI, and AASTU organized a 24-hour hackathon supported by Rosatom. Our team developed a website with in 24 hours, which focused on promoting nuclear energy through digital tools on interactive platforms which secured us 2nd place.
                   </p>
                   <div className='lg:flex'>
-                    <div className='border border-teal-600 bg-teal-600 px-14 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' ><a  href="https://github.com/YegetaTaye/Atom-Squad-HackAtom">View in Github</a></div>   
+                    <div className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' ><a  href="https://github.com/YegetaTaye/Atom-Squad-HackAtom">View in Github</a></div>   
                     <div className='border hover:border-teal-600 hover:bg-teal-600 px-7 max-md:mt-5 py-1 bg-teal-50 text-teal-600 rounded-lg font-bold hover:text-gray-50'><a href="https://stellar-starburst-21d4f3.netlify.app/">View Demo</a></div>
                   </div>
                 </div>
@@ -196,7 +196,7 @@ function App() {
                       As a team of three, we created a movie recommendation system as our capstone project for GDSC AASTU. This system suggests the latest popular movies and allows users to mark their favorites after logging in.
                   </p>
                   <div className='lg:flex'>
-                    <div className='border border-teal-600 bg-teal-600 px-14 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' ><a  href="https://github.com/FikruDemlew/GDSC-Team-4">View in Github</a></div>   
+                    <div className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' ><a  href="https://github.com/FikruDemlew/GDSC-Team-4">View in Github</a></div>   
                     <div className='border hover:border-teal-600 hover:bg-teal-600 px-7 max-md:mt-5 py-1 bg-teal-50 text-teal-600 rounded-lg font-bold hover:text-gray-50'><a href="https://cinesphere-one.vercel.app">View Demo</a></div>
                   </div>
                 </div>
@@ -214,7 +214,7 @@ function App() {
                   My first interactive website was an e-commerce platform, where I delved into the core fundamentals of state management. Through this project, I gained invaluable insights into handling data and maintaining application state dynamically.
                   </p>
                   <div className='lg:flex'>
-                    <div className='border border-teal-600 bg-teal-600 px-14 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' ><a  href="https://github.com/Yohanamtesfaye/Gdsc-Ecommerce">View in Github</a></div>   
+                    <div className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' ><a  href="https://github.com/Yohanamtesfaye/Gdsc-Ecommerce">View in Github</a></div>   
                     <div className='border hover:border-teal-600 hover:bg-teal-600 px-7 max-md:mt-5 py-1 bg-teal-50 text-teal-600 rounded-lg font-bold hover:text-gray-50'><a href="https://admirable-mermaid-56a9f2.netlify.app/">View Demo</a></div>
                   </div>
 
