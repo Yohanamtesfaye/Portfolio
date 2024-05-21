@@ -234,39 +234,39 @@ function App() {
                 <div >
                   <div className='flex '>
                     <div>
-                      <FaUser className='mt-3 text-5xl text-teal-500'/>
+                      <FaUser className='mt-3 lg:text-5xl max-md:text-4xl text-teal-500'/>
                     </div>
                     <div className='ml-10'>
-                      <p className='font-bold text-2xl py-2 '>Name</p>
-                      <p className='text-xl'>Yohana Mekuria</p>
+                      <p className='font-bold lg:text-2xl py-2 '>Name</p>
+                      <p className='lg:text-xl'>Yohana Mekuria</p>
                     </div>
                   </div>
                   <div >
                     <div className='flex'>
                       <div>
-                        <FaMapMarkerAlt className='mt-3 text-5xl  text-teal-600'/>
+                        <FaMapMarkerAlt className='mt-3 lg:text-5xl max-md:text-4xl  text-teal-600'/>
                       </div>
                       <div className='ml-10'>
-                        <p className='font-bold text-2xl py-2'>Address</p>
-                        <p className='text-xl'>Addis Ababa, Ethiopia</p>
+                        <p className='font-bold lg:text-2xl py-2'>Address</p>
+                        <p className='lg:text-xl'>Addis Ababa, Ethiopia</p>
                       </div>
                     </div>
                     <div className='flex'>
                       <div>
-                        <FaEnvelope className='mt-3 text-5xl  text-teal-600'/>
+                        <FaEnvelope className='mt-3 lg:text-5xl max-md:text-4xl  text-teal-600'/>
                       </div>
                       <div className='ml-10 j'>
-                        <p className='font-bold text-2xl py-2'>Email</p>
-                        <p className='text-xl'>yohanatesfaye24@gmail.com</p>
+                        <p className='font-bold lg:text-2xl py-2'>Email</p>
+                        <p className='lg:text-xl'>yohanatesfaye24@gmail.com</p>
                       </div>
                     </div>
                     <div className='flex'>
                       <div>
-                        <FaPhone className='mt-3 text-5xl text-teal-600'/>
+                        <FaPhone className='mt-3 lg:text-5xl max-md:text-4xl text-teal-600'/>
                       </div>
                       <div className='ml-10'>
-                        <p className='font-bold text-2xl py-2'>Phone</p>
-                        <p className='text-xl'>+251-989002391</p>
+                        <p className='font-bold lg:text-2xl py-2'>Phone</p>
+                        <p className='lg:text-xl'>+251-989002391</p>
                       </div>
                     </div>
                     </div>
