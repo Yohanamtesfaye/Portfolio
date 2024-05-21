@@ -12,7 +12,6 @@ import code from '../public/code.png'
 import voln from '../public/Voulenteer.png'
 import tutor from '../public/tutor.png'
 import { useState } from 'react';
-import portfolio from '../public/portfolio.jpg'
 import federal from '../public/Federal.png'
 import AtomSquad from '../public/AtomSquad.png'
 import ecommerce from '../public/E-commerce.png'
@@ -21,7 +20,7 @@ import movie from '../public/movie.png'
 
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const refreshPage =()=> {
     location.reload();
   }
