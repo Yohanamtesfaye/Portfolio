@@ -147,7 +147,7 @@ function App() {
                    <img src={logo}   />
                 </div>
                 <div>
-                  <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>E-Commerce Website</h3>
+                  <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>Abugida Tutors</h3>
                   <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
                   At the GDSC AASTU hackathon, our project "Abugida Tutors" secured third place. I led the front-end team and collaborated with the backend team. Our project helps to connect university students who are seeking for financial independence through teaching with parents looking to educate their kids. 
                   </p>
