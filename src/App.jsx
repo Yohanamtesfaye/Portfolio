@@ -67,7 +67,7 @@ function App() {
                 individuals.
               </p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
-                I interned as a front-end developer at <a href="https://dynamictechnologieset.com">Dynamic Technologies</a>  during the summer of 2016 E.C (2024 G.C). 
+                I interned as a front-end developer at <a className='text-teal-500 underline'   href="https://dynamictechnologieset.com">Dynamic Technologies</a>  during the summer of 2016 E.C (2024 G.C). 
                 During this time, I enhanced my technical expertise in Next.js, Git, and GitHub, while also improving my collaboration and teamwork skills.
               </p>
                 
