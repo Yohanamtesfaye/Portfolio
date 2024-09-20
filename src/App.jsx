@@ -14,7 +14,6 @@ import tutor from '../public/tutor.png'
 import { useState } from 'react';
 import federal from '../public/Federal.png'
 import AtomSquad from '../public/AtomSquad.png'
-import ecommerce from '../public/E-commerce.png'
 import logo from '../public/logo.jpg'
 import movie from '../public/movie.png'
 
@@ -67,15 +66,22 @@ function App() {
                 for an upcoming college program designed to educate incarcerated
                 individuals.
               </p>
+              <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
+                I interned as a front-end developer at <a href="https://dynamictechnologieset.com">Dynamic Technologies</a>  during the summer of 2016 E.C (2024 G.C). 
+                During this time, I enhanced my technical expertise in Next.js, Git, and GitHub, while also improving my collaboration and teamwork skills.
+              </p>
                 
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
-              I actively contributed my time and skills to 
-              <a className='text-teal-500 underline' href="https://askalcharityassociation.org/"> Askal Charity Association</a> every Saturday <span className='text-teal-500'>Voulenteering </span>
-                as a teacher for kids of age 10 and under since The beginning of this academic year  .
+               Since october 2023, I have actively contributed my time and skills to 
+              <a className='text-teal-500 underline' href="https://askalcharityassociation.org/"> Askal Charity Association</a> <span className='text-teal-500'>Voulenteering </span>
+                as a teacher for kids of age 10 and under. I also became a member of the organization in mid-2024 and have been actively involved ever since.
               </p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
               I have completed an intensive six-month study program at <a className='text-teal-500 underline' href="https://www.linkedin.com/company/gdsc-aastu/">GDSC AASTU</a>, where I dedicated myself to mastering React.js for front-end development.
                The experience has been invaluable, providing me with the expertise and confidence needed to tackle complex projects. 
+              </p>
+              <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
+               At <span className='text-teal-500'>SheCodes AASTU</span>, I mentored junior software engineers, guiding them through web development principles and best practices. I helped them improve their skills and grow in the field.
               </p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
                 <span className='text-teal-500'>Tutoring</span>  students in grades 7 and 8 through <a className='text-teal-500 underline' href="https://haletatutors.com/">Haleta Tutoring Company</a>, 
@@ -135,9 +141,9 @@ function App() {
             <div>
             <h3 className='text-3xl py-1 mt-5 dark:text-gray-200 font-bold'>Projects</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200 font-serif'>
-              In my portfolio on GitHub, I showcase a variety of projects, including an <span className='text-teal-600'> e-commerce website</span>  built from the ground up,
-              a <span className='text-teal-600 '>Federal Prison registration system </span> developed collaboratively with a team, and a <span className='text-teal-600'>personal portfolio website</span>  demonstrating my
-              skills and experiences.  Additionally, my GitHub repository houses various school and personal projects, reflecting my ongoing learning and growth in web development.
+              In my portfolio, I showcase a variety of projects, including an <span className='text-teal-600'> Abugida Tutors website</span>  built as a team project for our final hackathon project at GDSC AASTU,
+              a <span className='text-teal-600'>Nuclear Energy website</span> developed in a 24-hour hackathon, a <span className='text-teal-600'>CineSphere Movies</span> recommendation system created as a capstone project for GDSC AASTU,
+              a <span className='text-teal-600 '>Federal Prison registration system </span> developed collaboratively with a team.  Additionally, my GitHub repository houses various school and personal projects, reflecting my ongoing learning and growth in web development.
             </p>
             </div>
             <div className='flex flex-col py-10'>
@@ -151,7 +157,6 @@ function App() {
                   At the GDSC AASTU hackathon, our project "Abugida Tutors" secured third place. I led the front-end team and collaborated with the backend team. Our project helps to connect university students who are seeking for financial independence through teaching with parents looking to educate their kids. 
                   </p>
                   <div>
-                    
                   </div>
                   <div className='lg:flex'>
                     <div className='border border-teal-600 bg-teal-600 px-7 py-1 hover:bg-teal-50 hover:text-teal-600 rounded-lg font-bold text-gray-50 mr-5' ><a  href="https://github.com/Yohanamtesfaye/Abogida-Tutors">View in Github</a></div>   
@@ -200,15 +205,15 @@ function App() {
                     <div className='border hover:border-teal-600 hover:bg-teal-600 px-7 max-md:mt-5 py-1 bg-teal-50 text-teal-600 rounded-lg font-bold hover:text-gray-50'><a href="https://cinesphere-one.vercel.app">View Demo</a></div>
                   </div>
                 </div>
-                <div className='max-w-full max-h-full mx-auto max-md:mt-10 ml-10'>
+                 <div className='max-w-full max-h-full mx-auto max-md:mt-10 ml-10'>
                    <img src={movie}   />
                 </div>
-              </div>
+              {/* </div>
               <div className='lg:flex shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
                 <div className='max-w-full max-h-full mx-auto mr-10'>
                    <img src={ecommerce}   />
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                   <h3 className='text-lg font-medium pt-8 pb-2 text-teal-600'>E-commerce Website</h3>
                   <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-800 font-serif mb-5'>
                   My first interactive website was an e-commerce platform, where I delved into the core fundamentals of state management. Through this project, I gained invaluable insights into handling data and maintaining application state dynamically.
@@ -218,7 +223,7 @@ function App() {
                     <div className='border hover:border-teal-600 hover:bg-teal-600 px-7 max-md:mt-5 py-1 bg-teal-50 text-teal-600 rounded-lg font-bold hover:text-gray-50'><a href="https://admirable-mermaid-56a9f2.netlify.app/">View Demo</a></div>
                   </div>
 
-                </div>
+                </div> */}
               </div>
          
             {/* contactMe */}
