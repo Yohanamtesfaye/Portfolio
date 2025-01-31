@@ -197,16 +197,6 @@ function App() {
       demo: "https://abogida.vercel.app/",
       reverse: false,
     },
-    
-    {
-      title: "AASTU Door Lock",
-      image: doorlock,
-      description:
-        "A comprehensive door lock system integrating Arduino hardware with React frontend and MySQL database for tracking entry/exit logs.",
-      github: "https://github.com/Yohanamtesfaye/AASTU-Door-lock",
-      demo: "https://drive.google.com/file/d/1zqlVMF4N5WCNc58FPHCK37kkdhTrIKY-/view?usp=sharing",
-      reverse: false,
-    },
     {
       title: "CineSphere Movies",
       image: movie,
@@ -216,6 +206,16 @@ function App() {
       demo: "https://cinesphere-one.vercel.app",
       reverse: true,
     },
+    {
+      title: "AASTU Door Lock",
+      image: doorlock,
+      description:
+        "A comprehensive door lock system integrating Arduino hardware with React frontend and MySQL database for tracking entry/exit logs.",
+      github: "https://github.com/Yohanamtesfaye/AASTU-Door-lock",
+      demo: "https://drive.google.com/file/d/1zqlVMF4N5WCNc58FPHCK37kkdhTrIKY-/view?usp=sharing",
+      reverse: false,
+    },
+  
    
   ]
 
