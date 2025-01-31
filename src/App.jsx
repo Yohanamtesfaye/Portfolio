@@ -14,7 +14,7 @@ import code from "../public/code.png"
 import voln from "../public/Voulenteer.png"
 import tutor from "../public/tutor.png"
 import doorlock from "../public/doorlock.jpg"
-import AtomSquad from "../public/AtomSquad.png"
+import askal from "../public/askal.jpg"
 import logo from "../public/logo.jpg"
 import movie from "../public/movie.png"
 import lib from "../public/lib.png"
@@ -171,6 +171,24 @@ function App() {
 
   const projects = [
     {
+      title: "AASTU Library Management",
+      image: lib,
+      description:
+        "Comprehensive library management system for AASTU with detailed analytics and reporting capabilities.",
+      github: "https://github.com/Yohanamtesfaye/AASTU-Library-Managment_System.git",
+      demo: "https://aastu-library-managment-system.vercel.app/",
+      reverse: false,
+    },
+    {
+      title: "Askal Charity Website",
+      image: askal,
+      description:
+        "Developed and designed the official website for Askal Charity Organization, enhancing their online presence and improving accessibility for donors and beneficiaries through a user-friendly interface and responsive design.",
+      github: "https://github.com/Yohanamtesfaye/Askal-Charity-Website/",
+      demo: "https://askal-charity-website.vercel.app/",
+      reverse: true,
+    },
+    {
       title: "Abugida Tutors",
       image: logo,
       description:
@@ -179,15 +197,7 @@ function App() {
       demo: "https://abogida.vercel.app/",
       reverse: false,
     },
-    {
-      title: "Nuclear Energy Website",
-      image: AtomSquad,
-      description:
-        "Developed during a 24-hour hackathon, this website promotes nuclear energy through interactive platforms. Secured 2nd place in the competition.",
-      github: "https://github.com/YegetaTaye/Atom-Squad-HackAtom",
-      demo: "https://stellar-starburst-21d4f3.netlify.app/",
-      reverse: true,
-    },
+    
     {
       title: "AASTU Door Lock",
       image: doorlock,
@@ -206,15 +216,7 @@ function App() {
       demo: "https://cinesphere-one.vercel.app",
       reverse: true,
     },
-    {
-      title: "AASTU Library Management",
-      image: lib,
-      description:
-        "Comprehensive library management system for AASTU with detailed analytics and reporting capabilities.",
-      github: "https://github.com/Yohanamtesfaye/AASTU-Library-Managment_System.git",
-      demo: "https://aastu-library-managment-system.vercel.app/",
-      reverse: false,
-    },
+   
   ]
 
   const handleSubmit = (e) => {
