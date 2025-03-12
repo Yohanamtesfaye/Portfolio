@@ -18,6 +18,7 @@ import askal from "../public/askal.jpg"
 import logo from "../public/logo.jpg"
 import movie from "../public/movie.png"
 import lib from "../public/lib.png"
+import dev from "../public/dev.png"
 
 // Particle background component
 const ParticleBackground = () => {
@@ -159,7 +160,7 @@ function App() {
       icon: voln,
       title: "Volunteering",
       description: "Contributing to the community through various charitable organizations and initiatives.",
-      places: ["Askal Charity", "AASTU Charity Club", "HighSchool Charity"],
+      places: ["Askal Charity", "AASTU Charity Club President", "HighSchool Charity"],
     },
     {
       icon: tutor,
@@ -171,6 +172,16 @@ function App() {
 
   const projects = [
     {
+      title: "Askal Charity Website",
+      image: askal,
+      description:
+        "Developed and designed the official website for Askal Charity Organization, enhancing their online presence and improving accessibility for donors and beneficiaries through a user-friendly interface and responsive design.",
+      github: "https://github.com/Yohanamtesfaye/Askal-Charity-Website/",
+      demo: "https://askal-charity-website.vercel.app/",
+      reverse: true,
+    },
+    
+    {
       title: "AASTU Library Management",
       image: lib,
       description:
@@ -180,12 +191,12 @@ function App() {
       reverse: false,
     },
     {
-      title: "Askal Charity Website",
-      image: askal,
+      title: "Dev Meetup Website",
+      image: dev,
       description:
-        "Developed and designed the official website for Askal Charity Organization, enhancing their online presence and improving accessibility for donors and beneficiaries through a user-friendly interface and responsive design.",
-      github: "https://github.com/Yohanamtesfaye/Askal-Charity-Website/",
-      demo: "https://askal-charity-website.vercel.app/",
+        "I collaborated with a team of 3 to develop the website for the annual Developers Meetup event. We focused on creating a user-friendly and informative platform. The project was an exciting opportunity to showcase my web development skills in a team setting.",
+      github: "https://github.com/devmeetup-et/Dev-meetup-3",
+      demo: "https://devmeetup.et/",
       reverse: true,
     },
     {
@@ -197,15 +208,7 @@ function App() {
       demo: "https://abogida.vercel.app/",
       reverse: false,
     },
-    {
-      title: "CineSphere Movies",
-      image: movie,
-      description:
-        "A movie recommendation system developed as a GDSC AASTU capstone project, featuring user authentication and favorite movie tracking.",
-      github: "https://github.com/FikruDemlew/GDSC-Team-4",
-      demo: "https://cinesphere-one.vercel.app",
-      reverse: true,
-    },
+
     {
       title: "AASTU Door Lock",
       image: doorlock,
