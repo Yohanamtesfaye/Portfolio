@@ -16,7 +16,7 @@ import tutor from "../public/tutor.png"
 import doorlock from "../public/doorlock.jpg"
 import askal from "../public/askal.jpg"
 import logo from "../public/logo.jpg"
-import movie from "../public/movie.png"
+import hospitality from "../public/hospitality.png"
 import lib from "../public/lib.png"
 import dev from "../public/dev.png"
 
@@ -145,16 +145,16 @@ function App() {
   const services = [
     {
       icon: design,
-      title: "Front-End Development",
+      title: "Web Development",
       description:
-        "Crafting visually stunning digital experiences with React.js, Tailwind, and modern web technologies.",
-      technologies: ["React.js", "Tailwind", "Bootstrap", "HTML/CSS/JS"],
+        "Crafting visually stunning digital experiences with React.js, Tailwind, and MERN Stack",
+      technologies: ["React.js/ Next.js","Django", "Node.js", "Express.js", "MongoDb","MySQL"],
     },
     {
       icon: code,
-      title: "Web Development",
-      description: "Full-Stack development with Node.js, Express, PHP, and MySQL for complete web solutions.",
-      technologies: ["PHP", "Node.js", "Express.js", "MySQL"],
+      title: "Mobile App Development",
+      description: "Building cross-platform mobile applications using Dart and Flutter.",
+      technologies: ["Dart", "Flutter", "Firebase"],
     },
     {
       icon: voln,
@@ -172,24 +172,15 @@ function App() {
 
   const projects = [
     {
-      title: "Askal Charity Website",
-      image: askal,
+      title: "Hospitality Hackathon 2025",
+      image: hospitality,
       description:
-        "Developed and designed the official website for Askal Charity Organization, enhancing their online presence and improving accessibility for donors and beneficiaries through a user-friendly interface and responsive design.",
-      github: "https://github.com/Yohanamtesfaye/Askal-Charity-Website/",
-      demo: "https://askal-charity-website.vercel.app/",
-      reverse: true,
-    },
-    
-    {
-      title: "AASTU Library Management",
-      image: lib,
-      description:
-        "Comprehensive library management system for AASTU with detailed analytics and reporting capabilities.",
-      github: "https://github.com/Yohanamtesfaye/AASTU-Library-Managment_System.git",
-      demo: "https://aastu-library-managment-system.vercel.app/",
+        "I collaborated with a team of 3 to develop the website for the first ever hospitality hackathon in Ethiopia. It had a registration system for participants and event details.",
+      github: "https://github.com/Abrish-21/alx-hackathon-web",
+      demo: "https://hospitalityhackathon.et/",
       reverse: false,
     },
+    
     {
       title: "Dev Meetup Website",
       image: dev,
@@ -197,6 +188,26 @@ function App() {
         "I collaborated with a team of 3 to develop the website for the annual Developers Meetup event. We focused on creating a user-friendly and informative platform. The project was an exciting opportunity to showcase my web development skills in a team setting.",
       github: "https://github.com/devmeetup-et/Dev-meetup-3",
       demo: "https://devmeetup.et/",
+      reverse: true,
+    },
+   
+    
+    {
+      title: "AASTU Library Management",
+      image: lib,
+      description:
+        "Comprehensive library management system for AASTU with detailed analytics and reporting capabilities, with bilingual functionality.",
+      github: "https://github.com/Yohanamtesfaye/AASTU-Library-Managment_System.git",
+      demo: "https://aastu-library-managment-system.vercel.app/",
+      reverse: false,
+    },
+    {
+      title: "Askal Charity Website",
+      image: askal,
+      description:
+        "Developed and designed the official website for Askal Charity Organization, enhancing their online presence and improving accessibility for donors and beneficiaries through a user-friendly interface and responsive design.",
+      github: "https://github.com/Yohanamtesfaye/Askal-Charity-Website/",
+      demo: "https://askal-charity-website.vercel.app/",
       reverse: true,
     },
     {
@@ -213,10 +224,10 @@ function App() {
       title: "AASTU Door Lock",
       image: doorlock,
       description:
-        "A comprehensive door lock system integrating Arduino hardware with React frontend and MySQL database for tracking entry/exit logs.",
+        "A comprehensive door lock system integrating Arduino hardware with React frontend and MySQL database for tracking entry/exit logs, with multilingual functionalities",
       github: "https://github.com/Yohanamtesfaye/AASTU-Door-lock",
       demo: "https://drive.google.com/file/d/1zqlVMF4N5WCNc58FPHCK37kkdhTrIKY-/view?usp=sharing",
-      reverse: false,
+      reverse: true,
     },
   
    
