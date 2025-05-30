@@ -19,6 +19,7 @@ import logo from "../public/logo.jpg"
 import hospitality from "../public/hospitality.png"
 import lib from "../public/lib.png"
 import dev from "../public/dev.png"
+import health from "../public/health.jpg"
 
 // Particle background component
 const ParticleBackground = () => {
@@ -171,6 +172,15 @@ function App() {
   ]
 
   const projects = [
+    {
+      title: "Health & Pharma",
+      image: health,
+      description:
+        "I collaborated with a team of 3 to develop the website for the health and parma event hosted by ALX.",
+      github: "",
+      demo: "https://healthandpharma.tech",
+      reverse: true,
+    },
     {
       title: "Hospitality Hackathon 2025",
       image: hospitality,
