@@ -20,7 +20,7 @@ import hospitality from "../public/hospitality.png"
 import lib from "../public/lib.png"
 import dev from "../public/dev.png"
 import health from "../public/health.jpg"
-import zmall from "../public/zmall.jpg"
+import zmall from "../public/Zmall.jpg"
 
 // Particle background component
 const ParticleBackground = () => {
