@@ -20,6 +20,7 @@ import hospitality from "../public/hospitality.png"
 import lib from "../public/lib.png"
 import dev from "../public/dev.png"
 import health from "../public/health.jpg"
+import zmall from "../public/zmall.jpg"
 
 // Particle background component
 const ParticleBackground = () => {
@@ -173,74 +174,76 @@ function App() {
 
   const projects = [
     {
+      title: "Zmall MiniApp",
+      image: zmall,
+      description:
+        "Worked at ETTA Solutions redesigning the Zmall mini app integrated with Dashen Bank. I built the entire frontend, deployed it within three months, and it now handles several thousand daily users. You can see my work on the mini app.",
+      reverse: false,
+    },
+     {
+      title: "Askal Charity Website",
+      image: askal,
+      description:
+        "Designed and developed the official website for Askal Charity to improve their online presence and make donating and information access easier. Implemented multilingual support for 7 languages, a volunteer management system, and a member management system with four distinct roles plus an admin dashboard to manage users, roles, and site content.",
+      github: "https://github.com/Yohanamtesfaye/Askal-Charity-Website/",
+      demo: "https://askalcharityassociation.org/",
+      reverse: true,
+    },
+    {
       title: "Health & Pharma",
       image: health,
       description:
-        "I collaborated with a team of 3 to develop the website for the health and parma event hosted by ALX.",
+        "Collaborated with a team of three to create the website for the Health & Pharma event organized by ALX.",
       github: "",
       demo: "https://healthandpharma.tech",
-      reverse: true,
+      reverse: false,
     },
     {
       title: "Hospitality Hackathon 2025",
       image: hospitality,
       description:
-        "I collaborated with a team of 3 to develop the website for the first ever hospitality hackathon in Ethiopia. It had a registration system for participants and event details.",
+        "Worked with a small team to build the official site for Ethiopia's first Hospitality Hackathon, including participant registration and event details.",
       github: "https://github.com/Abrish-21/alx-hackathon-web",
       demo: "https://hospitalityhackathon.et/",
-      reverse: false,
+      reverse: true,
     },
-    
     {
       title: "Dev Meetup Website",
       image: dev,
       description:
-        "I collaborated with a team of 3 to develop the website for the annual Developers Meetup event. We focused on creating a user-friendly and informative platform. The project was an exciting opportunity to showcase my web development skills in a team setting.",
+        "Developed the Dev Meetup website as part of a three-person team, focusing on a clear, user-friendly platform to showcase the event.",
       github: "https://github.com/devmeetup-et/Dev-meetup-3",
       demo: "https://devmeetup.et/",
-      reverse: true,
+      reverse: false,
     },
-   
-    
     {
       title: "AASTU Library Management",
       image: lib,
       description:
-        "Comprehensive library management system for AASTU with detailed analytics and reporting capabilities, with bilingual functionality.",
+        "A full-featured library management system for AASTU with analytics, reporting, and bilingual support.",
       github: "https://github.com/Yohanamtesfaye/AASTU-Library-Managment_System.git",
       demo: "https://aastu-library-managment-system.vercel.app/",
-      reverse: false,
-    },
-    {
-      title: "Askal Charity Website",
-      image: askal,
-      description:
-        "Developed and designed the official website for Askal Charity Organization, enhancing their online presence and improving accessibility for donors and beneficiaries through a user-friendly interface and responsive design.",
-      github: "https://github.com/Yohanamtesfaye/Askal-Charity-Website/",
-      demo: "https://askal-charity-website.vercel.app/",
       reverse: true,
     },
+   
     {
       title: "Abugida Tutors",
       image: logo,
       description:
-        "A platform connecting university students with teaching opportunities to parents seeking education for their children. Won third place at GDSC AASTU hackathon.",
+        "A platform connecting students with tutors and helping parents find educators for their children. Awarded third place at the GDSC AASTU hackathon.",
       github: "https://github.com/Yohanamtesfaye/Abogida-Tutors",
       demo: "https://abogida.vercel.app/",
       reverse: false,
     },
-
     {
       title: "AASTU Door Lock",
       image: doorlock,
       description:
-        "A comprehensive door lock system integrating Arduino hardware with React frontend and MySQL database for tracking entry/exit logs, with multilingual functionalities",
+        "An integrated door lock system combining Arduino hardware, a React frontend, and a MySQL backend to log entries/exits and support multiple languages.",
       github: "https://github.com/Yohanamtesfaye/AASTU-Door-lock",
       demo: "https://drive.google.com/file/d/1zqlVMF4N5WCNc58FPHCK37kkdhTrIKY-/view?usp=sharing",
       reverse: true,
     },
-  
-   
   ]
 
   const handleSubmit = (e) => {
