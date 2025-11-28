@@ -21,6 +21,7 @@ import lib from "../public/lib.png"
 import dev from "../public/dev.png"
 import health from "../public/health.jpg"
 import zmall from "../public/Zmall.jpg"
+import emmacare from "../public/emmacare.jpg"
 
 // Particle background component
 const ParticleBackground = () => {
@@ -189,6 +190,15 @@ function App() {
       demo: "https://askalcharityassociation.org/",
       reverse: true,
     },
+     {
+      title: "Emma Care Wearable Device",
+      image: emmacare,
+      description:
+        "Developed the complete software stack for a maternal wearable: an AI recommendation engine that advises based on mothers' vital signs, a machine‑learning model that predicts blood pressure from SpO2 and heart rate, a Node.js backend for telemetry, alerts and secure storage, plus Arduino firmware to collect sensor data and stream it in real time. Implemented cloud telemetry, realtime dashboards, and end-to-end secure transmission.",
+      github: "",
+      demo: "https://emma-care-five.vercel.app",
+      reverse: false,
+    },
     {
       title: "Health & Pharma",
       image: health,
@@ -196,7 +206,7 @@ function App() {
         "Collaborated with a team of three to create the website for the Health & Pharma event organized by ALX.",
       github: "",
       demo: "https://healthandpharma.tech",
-      reverse: false,
+      reverse: true,
     },
     {
       title: "Hospitality Hackathon 2025",
@@ -205,7 +215,7 @@ function App() {
         "Worked with a small team to build the official site for Ethiopia's first Hospitality Hackathon, including participant registration and event details.",
       github: "https://github.com/Abrish-21/alx-hackathon-web",
       demo: "https://hospitalityhackathon.et/",
-      reverse: true,
+      reverse: false,
     },
     {
       title: "Dev Meetup Website",
@@ -214,7 +224,7 @@ function App() {
         "Developed the Dev Meetup website as part of a three-person team, focusing on a clear, user-friendly platform to showcase the event.",
       github: "https://github.com/devmeetup-et/Dev-meetup-3",
       demo: "https://devmeetup.et/",
-      reverse: false,
+      reverse: true,
     },
     {
       title: "AASTU Library Management",
@@ -223,7 +233,7 @@ function App() {
         "A full-featured library management system for AASTU with analytics, reporting, and bilingual support.",
       github: "https://github.com/Yohanamtesfaye/AASTU-Library-Managment_System.git",
       demo: "https://aastu-library-managment-system.vercel.app/",
-      reverse: true,
+      reverse: false,
     },
    
     {
@@ -233,7 +243,7 @@ function App() {
         "A platform connecting students with tutors and helping parents find educators for their children. Awarded third place at the GDSC AASTU hackathon.",
       github: "https://github.com/Yohanamtesfaye/Abogida-Tutors",
       demo: "https://abogida.vercel.app/",
-      reverse: false,
+      reverse: true,
     },
     {
       title: "AASTU Door Lock",
@@ -242,7 +252,7 @@ function App() {
         "An integrated door lock system combining Arduino hardware, a React frontend, and a MySQL backend to log entries/exits and support multiple languages.",
       github: "https://github.com/Yohanamtesfaye/AASTU-Door-lock",
       demo: "https://drive.google.com/file/d/1zqlVMF4N5WCNc58FPHCK37kkdhTrIKY-/view?usp=sharing",
-      reverse: true,
+      reverse: false,
     },
   ]
 
