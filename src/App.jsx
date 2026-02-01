@@ -22,6 +22,7 @@ import dev from "../public/dev.png"
 import health from "../public/health.jpg"
 import zmall from "../public/Zmall.jpg"
 import emmacare from "../public/emmacare.jpg"
+import kuriftu from "../public/kuriftu.jpg"
 
 // Particle background component
 const ParticleBackground = () => {
@@ -174,6 +175,14 @@ function App() {
   ]
 
   const projects = [
+      {
+      title: "Kuriftu MiniApp",
+      image: kuriftu,
+      description:
+        "Worked on a full-stack Gena discount platform for Kuriftu Resorts, integrating Addis Pay payments, a transportation (ride) system, and an admin dashboard for ticket verification. The platform went live in production and successfully processed 2.5M+ ETB in transactions.",
+      reverse: true,
+      demo: "https://gwp.kurifturesorts.com/",
+    },
     {
       title: "Zmall MiniApp",
       image: zmall,
