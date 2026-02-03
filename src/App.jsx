@@ -152,7 +152,7 @@ function App() {
       title: "Web Development",
       description:
         "Crafting visually stunning digital experiences with React.js, Tailwind, and MERN Stack",
-      technologies: ["React.js/ Next.js","Django", "Node.js", "Express.js", "MongoDb","MySQL"],
+      technologies: ["React.js/ Next.js", "Django", "Node.js", "Express.js", "MongoDb", "MySQL"],
     },
     {
       icon: code,
@@ -175,7 +175,7 @@ function App() {
   ]
 
   const projects = [
-      {
+    {
       title: "Kuriftu MiniApp",
       image: kuriftu,
       description:
@@ -190,7 +190,7 @@ function App() {
         "Worked at ETTA Solutions redesigning the Zmall mini app integrated with Dashen Bank. I built the entire frontend, deployed it within three months, and it now handles several thousand daily users. You can see my work on the mini app.",
       reverse: false,
     },
-     {
+    {
       title: "Askal Charity Website",
       image: askal,
       description:
@@ -199,7 +199,7 @@ function App() {
       demo: "https://askalcharityassociation.org/",
       reverse: true,
     },
-     {
+    {
       title: "Emma Care Wearable Device",
       image: emmacare,
       description:
@@ -244,7 +244,7 @@ function App() {
       demo: "https://aastu-library-managment-system.vercel.app/",
       reverse: false,
     },
-   
+
     {
       title: "Abugida Tutors",
       image: logo,
