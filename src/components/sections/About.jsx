@@ -25,11 +25,11 @@ const About = () => {
     ];
 
     return (
-        <Section id="about" className="bg-white dark:bg-dark-lighter">
+        <Section id="techstack" className="bg-white dark:bg-dark-lighter">
             <div className="max-w-4xl mx-auto text-center">
                 <h2 className="text-3xl dark:text-white md:text-4xl font-bold mb-8">Tech Stack</h2>
 
-                
+
                 <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
                     {techStack.map((tech, index) => (
                         <Card key={index} className="flex flex-col items-center justify-center p-4 !bg-gray-50 dark:!bg-dark hover:!bg-white dark:hover:!bg-gray-800 transition-colors">
