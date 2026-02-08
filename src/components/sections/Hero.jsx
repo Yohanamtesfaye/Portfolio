@@ -60,8 +60,9 @@ const Hero = () => {
                         transition={{ duration: 0.5, delay: 0.4 }}
                         className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start"
                     >
-                        <Button href={resume} target="_blank" icon={HiDownload}>
-                            Download CV
+                      
+                        <Button href="https://flowcv.com/resume/l8iituowsl" target="_blank" icon={HiDownload}>
+                            View CV
                         </Button>
                         <div className="flex gap-4">
                             {socialLinks.map((social, index) => (
