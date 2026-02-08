@@ -135,7 +135,7 @@ export const projects = [
     {
         id: "hospitality-hackathon",
         title: "Hospitality Hackathon",
-        image: hospitality1,
+        image: hospitality,
         images: [hospitality, hospitality1, hospitality2],
         description: "Official site for Ethiopia's first Hospitality Hackathon. Handled participant registration and event details.",
         fullDescription: "Worked with a small team to build the official site for Ethiopia's first Hospitality Hackathon, including participant registration and event details.",
