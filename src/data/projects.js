@@ -57,7 +57,7 @@ export const projects = [
         challenges: "Ensuring secure and reliable payment processing with local payment providers.",
         solutions: "Implemented robust error handling and webhook verification for financial transactions."
     },
-     {
+    {
         id: "africa-maritime",
         title: "Africa Maritime Conference",
         image: maritime1,

@@ -59,7 +59,7 @@ const ProjectDetails = () => {
                             className="lg:col-span-2 space-y-6"
                         >
                             <div className="sticky top-24">
-                                <h1 className="text-4xl lg:text-5xl font-bold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary-light">
+                                <h1 className="text-3xl lg:text-4xl font-bold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary-light">
                                     {project.title}
                                 </h1>
                                 <div className="flex flex-wrap gap-2 mb-6">
